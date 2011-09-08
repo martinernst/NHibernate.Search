@@ -53,17 +53,14 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Iesi.Collections, Version=1.0.1.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\lib\Iesi.Collections.dll</HintPath>
+    <Reference Include="Iesi.Collections">
+      <HintPath>..\..\..\cygnus\packages\Iesi.Collections.3.2.0.4000\lib\Net35\Iesi.Collections.dll</HintPath>
     </Reference>
-    <Reference Include="Lucene.Net, Version=2.0.0.4, Culture=neutral, PublicKeyToken=255f08c3cb6b422d, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\lib\Lucene.Net.dll</HintPath>
+    <Reference Include="Lucene.Net">
+      <HintPath>..\..\..\cygnus\packages\Lucene.2.9.2.2\lib\Lucene.Net.dll</HintPath>
     </Reference>
-    <Reference Include="NHibernate, Version=3.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\lib\NHibernate.dll</HintPath>
+    <Reference Include="NHibernate">
+      <HintPath>..\..\..\cygnus\packages\NHibernate.3.2.0.4000\lib\Net35\NHibernate.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
